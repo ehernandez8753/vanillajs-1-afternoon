@@ -37,6 +37,7 @@ section {
   padding: 1vh 1vw;
   font-size: 30px;
   margin: 25px;
+  box-shadow: 5px 5px 10px;
 }
 
 section span:nth-of-type(2) {
@@ -58,14 +59,12 @@ input{
 
   width: 100px;
   height: 40px;
-}
-
-.pageBreak{
-  height: 40px;
-  clear: both;
+  border-color: rgb(177, 177, 177);
 }
 
 #btn{
   width: 100px;
   height: 40px;
+  box-shadow: 5px 5px 10px;
+  
 }
