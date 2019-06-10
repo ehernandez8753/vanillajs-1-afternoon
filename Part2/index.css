@@ -25,8 +25,8 @@ main {
 }
 
 section {
-  height: 300px;
-  width: 200px;
+  height: 55vh;
+  width: 18vw;
   border: 1px solid #000;
   border-radius: 5px;
   display: flex;
@@ -36,7 +36,7 @@ section {
   color: grey;
   padding: 1vh 1vw;
   font-size: 30px;
-  margin: 15px;
+  margin: 25px;
 }
 
 section span:nth-of-type(2) {
@@ -52,4 +52,20 @@ section span:nth-of-type(3) {
   height: 100px;
   width: 100px;
   border: 1px solid #000;
+}
+
+input{
+
+  width: 100px;
+  height: 40px;
+}
+
+.pageBreak{
+  height: 40px;
+  clear: both;
+}
+
+#btn{
+  width: 100px;
+  height: 40px;
 }
